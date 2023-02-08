@@ -15,5 +15,6 @@ phases:
       - echo post_build
 artifacts:
   files:
-    - '**/*'
     - target/10-todo-aws-rest-api-h2-0.0.1-SNAPSHOT.jar
+    - appspec.yml
+  discard-paths: yes
