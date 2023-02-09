@@ -15,12 +15,12 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		return "Hello World TuTV";
+		return "Hello World TUTV New Version";
 	}
 
 	@GetMapping(path = "/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
-		return new HelloWorldBean("Hello World TuTV");
+		return new HelloWorldBean("Hello World TuTV  New Version");
 	}
 	
 	///hello-world/path-variable/in28minutes
